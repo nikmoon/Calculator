@@ -16,7 +16,7 @@
         android:text="+"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/buttonMinus"
+        app:layout_constraintRight_toLeftOf="@+id/buttonMinus"
         />
 
     <Button
@@ -27,9 +27,9 @@
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
         android:text="-"
-        app:layout_constraintTop_toTopOf="@id/buttonPlus"
-        app:layout_constraintLeft_toRightOf="@id/buttonPlus"
-        app:layout_constraintRight_toLeftOf="@id/buttonMultiply"
+        app:layout_constraintTop_toTopOf="@+id/buttonPlus"
+        app:layout_constraintLeft_toRightOf="@+id/buttonPlus"
+        app:layout_constraintRight_toLeftOf="@+id/buttonMultiply"
         />
 
     <Button
@@ -40,9 +40,9 @@
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
         android:text="*"
-        app:layout_constraintTop_toTopOf="@id/buttonPlus"
-        app:layout_constraintLeft_toRightOf="@id/buttonMinus"
-        app:layout_constraintRight_toLeftOf="@id/buttonDiv"
+        app:layout_constraintTop_toTopOf="@+id/buttonPlus"
+        app:layout_constraintLeft_toRightOf="@+id/buttonMinus"
+        app:layout_constraintRight_toLeftOf="@+id/buttonDiv"
         />
 
     <Button
@@ -53,8 +53,8 @@
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
         android:text="/"
-        app:layout_constraintTop_toTopOf="@id/buttonPlus"
-        app:layout_constraintLeft_toRightOf="@id/buttonMultiply"
+        app:layout_constraintTop_toTopOf="@+id/buttonPlus"
+        app:layout_constraintLeft_toRightOf="@+id/buttonMultiply"
         app:layout_constraintRight_toRightOf="parent"
         />
 
@@ -66,9 +66,9 @@
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
         android:text="1"
-        app:layout_constraintTop_toBottomOf="@id/buttonPlus"
-        app:layout_constraintLeft_toLeftOf="@id/buttonPlus"
-        app:layout_constraintRight_toRightOf="@id/buttonPlus"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlus"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonPlus"
+        app:layout_constraintRight_toRightOf="@+id/buttonPlus"
         />
 
     <Button
@@ -76,9 +76,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="2"
-        app:layout_constraintLeft_toLeftOf="@id/buttonMinus"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonMinus"
         app:layout_constraintTop_toTopOf="@+id/button1"
-        app:layout_constraintRight_toRightOf="@id/buttonMinus"
+        app:layout_constraintRight_toRightOf="@+id/buttonMinus"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginRight="0dp"
@@ -89,9 +89,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="3"
-        app:layout_constraintLeft_toLeftOf="@id/buttonMultiply"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonMultiply"
         app:layout_constraintTop_toTopOf="@+id/button1"
-        app:layout_constraintRight_toRightOf="@id/buttonMultiply"
+        app:layout_constraintRight_toRightOf="@+id/buttonMultiply"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="0dp"
         />
@@ -102,8 +102,8 @@
         android:layout_height="wrap_content"
         android:text="."
         app:layout_constraintTop_toTopOf="@+id/button1"
-        app:layout_constraintLeft_toLeftOf="@id/buttonDiv"
-        app:layout_constraintRight_toRightOf="@id/buttonDiv"
+        app:layout_constraintLeft_toLeftOf="@+id/buttonDiv"
+        app:layout_constraintRight_toRightOf="@+id/buttonDiv"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
@@ -228,7 +228,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="="
-        app:layout_constraintTop_toTopOf="@id/button0"
+        app:layout_constraintTop_toTopOf="@+id/button0"
         app:layout_constraintLeft_toLeftOf="@+id/buttonDot"
         app:layout_constraintRight_toRightOf="@+id/buttonDot"
         android:layout_marginLeft="0dp"
